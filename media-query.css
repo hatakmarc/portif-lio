@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/*Moblie First*/
+
+@media screen and (max-width: 600px) {
+
+    header {
+        display: block;
+    }
+
+    .logoD {
+        margin-left: -60px;
+    }
+
+    main {
+        display: flex;
+        margin: 0;
+    }
+
+    .marcio {
+        padding-top: -0px;
+        display: inline-block;
+        margin: auto;
+        width: 400px;
+        height: 800px;
+        text-align: center;
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+
+    .marcio .descricao {
+        margin: 20px auto 0 65px;
+        font-size: 20px;
+        width: 380px;
+    }
+
+    .avatar {
+        margin-left: -130px;
+    }
+
+    h1 {
+        margin: auto;
+        margin-left: -70px;
+        margin-top: -100px;
+    }
+
+    .legenda {
+        opacity: 1;
+    }
+
+    .contain-projetos {
+        width: 580px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-mibile-icon {
+        display: block;
+        background-color: black;
+    }
+
+    .burguer {
+        display: block;
+    }
+
+    .menu-mibile-icon button {
+        background-color: transparent;
+        padding: 30px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu1 {
+        border: solid #351802 2px;
+        border-radius: 16px;
+        background-color: #5025049f;
+        width: 450px;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .menu1 li {
+        margin: 6px;
+        font-size: 26px;
+        color: #f5f5f5;
+        list-style: none;
+    }
+
+}
+
+/*tablets*/
+
+@media screen and (max-width: 992px) {
+    header {
+        display: block;
+    }
+
+    .logoD {
+        margin-left: -40px;
+    }
+
+    main {
+        display: flex;
+        margin: 0;
+    }
+
+    .marcio {
+        padding-top: -0px;
+        display: inline-block;
+        margin: auto;
+        width: 820px;
+        height: 720px;
+        text-align: center;
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+
+    .marcio .descricao {
+        margin: 30px auto 0 65px;
+        font-size: 20px;
+        width: 780px;
+    }
+
+    .marcio h1 {
+        margin-left: 300px;
+    }
+
+    .avatar {
+        margin-left: 90px;
+        margin-bottom: -50px;
+    }
+
+    .legenda {
+        opacity: 1;
+    }
+
+    .projetos {
+        display: block;
+        text-align: center;
+    }
+    .contain-projetos{
+        margin-left: 350px;
+    }
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        margin-left: 800px;
+    }
+
+    .burguer {
+        display: block;
+    }
+
+    .menu-mibile-icon button {
+        background-color: transparent;
+        padding: 30px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu1 {
+        border: solid #351802 2px;
+        border-radius: 16px;
+        background-color: #5025049f;
+        width: 450px;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .mobile-menu {
+        margin-left: 240px;
+        margin-top: -60px;
+    }
+
+    .menu1 li {
+        margin: 6px;
+        font-size: 26px;
+        color: #f5f5f5;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .contain-projetos {
+        margin-left: 800px;
+    }
+    .mobile-menu-icon{
+        display: none;
+    }
+}

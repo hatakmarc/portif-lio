@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/portifolio.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="shortcut icon" href="imagens/favicom.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dev Márcio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoD"><img class="logo" src="imagens/LOGO.png" alt=""></div>
+        <nav class="nav-bar">
+            <ul class="menu">
+                <a href="#">
+                    <li class="nav-item">Home</li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">Projetos</li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">Social</li>
+                </a>
+            </ul>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <div class="burguer"></div>
+                    <div class="burguer"></div>
+                    <div class="burguer"></div>
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul class="menu1">
+                <a href="#">
+                    <li class="home">Home</li>
+                </a>
+                <a href="#">
+                    <li class="projetos">Projetos</li>
+                </a>
+                <a href="#">
+                    <li class="social">Social</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="marcio">
+            <div class="avatar"><img src="imagens/avatar.png" alt="Marcio Vitor"></div>
+            <div class="sobre">
+                <h1>Marcio Vitor</h1>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, quod eligendi
+                    similique nobis
+                    in
+                    quam obcaecati beatae cupiditate, atque perspiciatis repudiandae eum consectetur quia. Nam sit
+                    modi
+                    quo excepturi rem?Lorem ipsum dolor si amet consectetur adipisicing elit. Temporibus molestiae
+                    distinctio voluptatem quaerat! Dolor aperiam excepturi explicabo architecto tempore nam quia,
+                    eaque
+                    molestiae nesciunt, obcaecati quod sapiente expedita dolores Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit.</p>
+            </div>
+        </div>
+    </main>
+    <section class="estudos">
+        <div class="tecnologias">
+            <h2 style="font-size: 60px; color: #351802;">Técnologias</h2>
+            <h3 style="font-size: 40px; color: #351802;">Em desenvolvimento:</h3>
+            <div class="icons">
+                <div class="tecicon"><i class='bx bxl-html5' style='color:#d86b02' id="html"></i><span class="legenda">
+                        <p>HTMl5</p>
+                    </span></div>
+                <div class="tecicon"><i class='bx bxl-css3' style='color:#223eb7' id="css"></i>
+                    <span class="legenda">
+                        <p>CSS</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-javascript' style='color:#e0ce27' id="javascript"></i>
+                    <span class="legenda">
+                        <p>JavaScript</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-react' style='color:#3090d0' id="react"></i>
+                    <span class="legenda">
+                        <p>React</p>
+                    </span>
+                </div>
+            </div>
+            <h3 style="font-size: 40px; color: #351802;">Pretendo de Estudar:</h3>
+            <div class="icons2">
+                <div class="tecicon" id=""><i class='bx bxl-jquery' style='color:#2d6a94'></i>
+                    <span class="legenda">
+                        <p>JQuery</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-angular' style='color:#de1616'></i>
+                    <span class="legenda">
+                        <p>Ângular</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-bootstrap' style='color:#5c09b7'></i>
+                    <span class="legenda">
+                        <p>Bootstrap</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-vuejs' style='color:#157b48'></i>
+                    <span class="legenda">
+                        <p>Vuejs</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-typescript' style='color:#3b6dbd'></i>
+                    <span class="legenda">
+                        <p>TypeScript</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-java' style='color:#3290ce'></i>
+                    <span class="legenda">
+                        <p>Java</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-php'></i>
+                    <span class="legenda">
+                        <p>php</p>
+                    </span>
+                </div>
+                <div class="tecicon"><i class='bx bxl-c-plus-plus' style='color:#1961ec'></i>
+                    <span class="legenda">
+                        <p>C++</p>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="projetos">
+        <h2 style="font-size: 40px; color: #351802; text-align: center;">Projetos</h2>
+        <div class="contain-projetos">
+            <a href="file:///C:/All%20Codes/PROJETOS/clock/index.html" target="_blank">
+                <div class="clock"><img class="imagem-projetos" src="imagens/Clock.png" alt="relógio" width="300px">
+                    <p class="relogio-digital"></p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer style="margin: 0; height: 100%;">
+        <div style="display: flex; margin-left: 48%;" class="redes"><a href="https://www.linkedin.com/in/marcio-vitor-rodrigues-dos-santos-630393270/" target="_blank"><i class='bx bxl-linkedin-square'
+                    style='color:#ffffff; font-size: 40px; margin: 10px;'></i></a>
+            <a href="https://github.com/hatakmarc" target="_blank "><i
+                    class='bx bxl-github' style='color:#ffffff; font-size: 40px; margin: 10px; '></i></a>
+        </div>
+        <p style="font-size: 20px; color: whitesmoke; margin: auto; padding: 40px; ">&copy;copyright 2024 | Desenvolvido
+            por: Marcio Vitor</p>
+    </footer>
+</body>
+<script src="JavaScript/menu.js"></script>
+
+</html>
